@@ -63,3 +63,30 @@ Este projeto deverá usar a seguinte stack de desenvolvimento:
 - Adaptação mobile (layout responsivo);
 - Componentização e extensibilidade dos componentes
 Javascript;
+
+---------- PROJECT -----------
+
+# yampi-ecommerce_vue
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
