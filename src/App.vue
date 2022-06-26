@@ -13,7 +13,7 @@
 					<div>R$ 2.578,70</div>
 				</div>
 			</div>
-			<nav style="margin-top: 2rem">
+			<nav>
 				<div id="yampi-nav">
 					<router-link class="yampi-nav__link" to="/">Electronics</router-link>
 					<router-link class="yampi-nav__link" to="/">Jewelery</router-link>
@@ -132,7 +132,10 @@ header {
 			}
 		}
 
-		#yampi-nav {
+		nav {
+			margin-top: 2rem;
+
+			#yampi-nav {
 			display: flex;
 			align-items: stretch;
 			flex-direction: row;
@@ -152,6 +155,7 @@ header {
 					background-color: #dedaf1;
 				}
 			}
+		}
 		}
 	}
 }
