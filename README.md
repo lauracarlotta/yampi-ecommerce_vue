@@ -88,3 +88,42 @@ Este projeto deverá usar a seguinte stack de desenvolvimento:
 - Adaptação mobile (layout responsivo);
 - Componentização e extensibilidade dos componentes
 Javascript;
+
+## TO DO
+[ ] Sass - Estrutura de pastas
+[ ] Sass - VARIAVEIS
+[ ] Sass - media querys | responsividade
+[ ] LÓGICA
+
+#### Cabeçalho
+[ ] menu de navegação com as categorias da loja
+[ ] um input para a busca dos produtos
+[ ] ícone que mostra o conteúdo do carrinho da loja.
+
+#### Página inicial
+[ ] listar todos os produtos da loja
+[ ] banners DA loja
+
+#### Página da categoria
+[ ] nome da categoria selecionada sendo o título principal da página
+[ ] listar os produtos apenas dessa categoria
+[ ] `select` para definir como será a ordenação desses produtos, sendo as ordenações por *nome*, *preço* e *avaliação do produto*.
+
+#### Página do produto
+[ ] detalhes do produto
+	[ ] nome do produto como o título principal da página
+	[ ] a imagem
+	[ ] a descrição
+	[ ] o preço
+	[ ] input para selecionar a quantidade
+	[ ] botão para adicionar o produto ao carrinho.
+
+#### Carrinho (página ou dropdown)
+
+[ ] O carrinho da sua loja deverá conter as seguintes ações:
+
+	[ ] Atualizar a quantidade de um produto no carrinho;
+	[ ] Excluir um item do carrinho;
+	[ ] Mensagem de carrinho vazio;
+	[ ] Valor total, somando os preços de todos os itens no carrinho;
+	[ ] Botão para a finalização do pedido;
