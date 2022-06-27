@@ -127,3 +127,10 @@ Javascript;
 	[ ] Mensagem de carrinho vazio;
 	[ ] Valor total, somando os preços de todos os itens no carrinho;
 	[ ] Botão para a finalização do pedido;
+
+
+###
+O que eu fiz no projeto?
+
+-> Adicionei .editorconfig, eslint e prettier
+->
