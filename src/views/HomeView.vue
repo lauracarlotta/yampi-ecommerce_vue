@@ -1,12 +1,18 @@
 <template>
 	<div class="home">
-		<img alt="Vue logo" src="/img/logo.jpg" />
+		<MainBanner />
+		<!-- <img alt="Vue logo" src="/img/logo.jpg" /> -->
 	</div>
 </template>
 
 <script>
+import MainBanner from '../components/MainBanner.vue';
 
 export default {
-	name: "HomeView"
+	name: "HomeView",
+
+	components: {
+		MainBanner,
+	}
 };
 </script>
