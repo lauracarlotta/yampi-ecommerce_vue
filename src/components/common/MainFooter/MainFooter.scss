@@ -1,0 +1,51 @@
+@import '../../../style.scss';
+
+footer {
+	text-align: left;
+	background-color: $color-main-background-gray;
+	padding: 2.5rem 2rem;
+
+	#yampi-footer {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+
+		.yampi-logo__footer {
+			width: 270px;
+			height: 72px;
+			margin: 2rem 6rem;
+		}
+	}
+
+	.yampi-ul {
+		display: flex;
+		.yampi-ul__footer {
+			display: flex;
+			flex-direction: column;
+			font-size: 1.125rem;
+
+			strong {
+				margin-bottom: 1rem;
+			}
+
+			li {
+				list-style-type: none;
+
+				a {
+					text-decoration: none;
+					color: $color-text-link-footer-gray;
+					line-height: 1.75rem;
+					font-weight: 400;
+
+					&:hover {
+						color: $color-hover-text-link-purple;
+					}
+				}
+			}
+		}
+
+		.yampi-ul__footer:nth-child(1){
+			margin: 0 1.5rem;
+		}
+	}
+}

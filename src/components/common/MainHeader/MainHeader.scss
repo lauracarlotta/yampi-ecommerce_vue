@@ -1,0 +1,95 @@
+@import '../../../style.scss';
+
+header {
+	background-color: $color-main-background-gray;
+	border-bottom: .25rem solid $color-border-gray;
+
+	#yampi-header {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+
+		i {
+			color: $color-icon;
+		}
+
+		.yampi-logo__header {
+			width: 200px;
+		}
+
+		#yampi-header__search {
+
+			#input-search__main {
+				border-radius: .5rem;
+				border: 2px solid $color-border-purple;
+				padding: .75rem 1.5rem;
+				width: 550px;
+				max-width: 700px;
+				font-size: 1rem;
+
+				&::placeholder {
+					color: $color-placeholder;
+					font-size: 1rem;
+					opacity: 1;
+				}
+			}
+
+			i {
+				position: relative;
+				top: 4px;
+				right: 36px;
+				cursor: pointer;
+				font-size: 1.5rem;
+			}
+
+		}
+
+		#yampi-header__shopping {
+			@include shadow-card();
+
+			background-clip: $color-button-shopping;
+			padding: 1rem;
+			margin-top: 1rem;
+			border-radius: 1rem;
+			display: flex;
+			flex-direction: column;
+			cursor: pointer;
+			transition: all 500ms ease;
+
+			i {
+				margin-bottom: 1rem;
+				font-size: 2rem;
+			}
+
+			&:hover {
+				background-color: $color-hover-background-purple;
+			}
+		}
+	}
+
+	nav {
+		margin-top: 2rem;
+
+		#yampi-nav {
+			display: flex;
+			align-items: stretch;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 0 1rem;
+
+			.yampi-nav__link {
+				color: $color-menu-nave-font;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: bolder;
+				padding: 1rem 0;
+				width: 25%;
+
+				&:hover {
+					border-radius: 1rem 1rem 0 0;
+					background-color: $color-hover-background-purple;
+				}
+			}
+		}
+	}
+}
